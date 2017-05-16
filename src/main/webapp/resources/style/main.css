@@ -1,0 +1,163 @@
+a {
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+a:hover {
+    font-weight: bold;
+    color: red;
+}
+
+a:visited {
+    color: #cccccc;
+    font-weight: bold;
+}
+
+a:link {
+    color: white;
+    text-decoration: underline;
+    font-weight: bold;
+}
+
+form {
+    color: white;
+}
+
+a span {
+    cursor:pointer; }
+
+nav {
+    width: 20%;
+    height: 80%;
+    float: left;
+    margin-left: 5px;
+    margin-right: 5px;
+    color: #000033;
+    border: 2px solid white;
+}
+
+body, html {
+    height: 100%;
+    min-height: 1000px;
+    margin: 0;
+    padding: 0;
+    width:100%;
+    text-align:center;
+    background: #001e3d;
+}
+
+.title {
+    text-align: center; 
+    height: 15%;
+    width: 100%;
+    color: white;
+}
+
+.error {
+    color:#cc0000;
+}
+
+.logo
+{
+    background-image: url('../images/s4.jpg');
+    background-position: center;
+    padding-left: 50%;
+    background-repeat: no-repeat;
+    width: 720px;
+    height: 281px;
+    text-align: center;
+    margin: 30px auto;
+    vertical-align: middle;
+}
+div.con {
+    overflow: auto;
+    height: 80%;
+    width: 75%;
+    vertical-align: middle;
+    margin: 0 auto;
+    border: 2px solid white;
+}
+
+div.cont {
+    height: 100%;
+    width:90%;
+    margin: 0 auto;
+    border: 2px solid white;
+    vertical-align: middle;
+}
+
+div.tablecon {
+    overflow: auto;
+    height: 80%;
+    width:75%;
+    margin: 0 auto;
+    border: 2px solid white;
+    vertical-align: middle;
+}
+
+div.pagesnav {
+    height: 5%;
+    width:fit-content;
+    color: white;
+    margin: 0 auto;
+    vertical-align: middle;
+}
+
+h1,h2,h3,h4,h5,h6 {
+    padding: 0;
+        vertical-align: middle;
+    margin: 10px 0 5px 0;
+    color: white; }
+
+.table {
+    color: white;
+    width: 100%;
+    font-size: 13px;
+    border: 2px solid; }
+.headerrow {
+    display: table-row;
+    font-weight:bold;
+    text-align:center;
+    height: 20px;
+    width: 100px;
+    border: 1px solid white;
+}
+.row {
+    display: table-row;
+    text-align:center;
+    height: 20px;
+    width: 100%;
+        border: 1px solid white;
+ }
+
+.cell {
+    display: table-cell;
+    border: 1px solid white;
+    padding-left: 5px;
+    color: white;
+    padding-right: 5px;
+    width: fit-content;}
+
+div {
+    display:block;
+    text-align:left;
+}
+div.down {
+    color:white;
+    height: 10%;
+}
+
+#photo1 {
+    display: block;
+    margin: 0 auto;
+}
+
+#photo2 {
+    display: none;
+    margin: 0 auto;
+}
+
+#photo3 {
+    display: none;
+    margin: 0 auto;
+}
